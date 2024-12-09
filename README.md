@@ -3,7 +3,7 @@
 ## Dataset 1 statistics (*small-medium*)
 - 3 datasets
 - Stock market end of day (eod) prices
-- Dataset1 *(small)*
+- Dataset1 (*small*)
   - Time taken to scrape: 5 minutes
   - entries: 9,405 (627 x 3 x 5)
 - Dataset1_MoreMarkets (*small*)
