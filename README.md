@@ -1,6 +1,7 @@
-# Non-Negative Matrix Factorization
+# Nonnegative Matrix Factorization
 
 ## Dataset 1 statistics (*small-medium*)
+- 3 datasets
 - Stock market end of day (eod) prices
 - Dataset1 *(small)*
   - 5 minutes
@@ -14,6 +15,7 @@
     - 741,000 single-precision floats $\\approx$ 3mB
 
 ## Dataset 2 statistics (*very large*)
+- 1 dataset
 - Video: $\\approx$ 30fps, 1280 x 780, encoded as greyscale
 - $\\approx$ 10 second video
 - 331 frames
