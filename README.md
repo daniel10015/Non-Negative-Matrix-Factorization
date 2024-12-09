@@ -27,4 +27,26 @@ MAT423 project
 - TODO
 
 ## Results
-- TODO
+- Dataset 1 on `Data/Dataset1/2024-12-02.csv`
+```
+FAST HALS
+-----
+Frobenius Norm Error: 67.80698904734199
+iterations: 2539
+multiplicative update
+-----
+Frobenius Norm Error: 67.96671671614328
+iterations: 230
+```
+
+- Dataset 2 on `Data/Dataset2/friend_jazz_drumming_frame0.csv`
+```
+FAST HALS
+-----
+Frobenius Norm Error: 67.85951333182257
+iterations: 4269
+multiplicative update
+-----
+Frobenius Norm Error: 68.0684712196409
+iterations: 220
+```
