@@ -14,7 +14,7 @@
     - 741,000 single-precision floats $\\approx$ 3mB
 
 ## Dataset 2 statistics (*very large*)
-- Video: $\\approx$ 30fps, 1280 x 780
+- Video: $\\approx$ 30fps, 1280 x 780, encoded as greyscale
 - $\\aprox$10 second video
 - 331 frames
 - entries: 330,470,400 (1280 x 780 x 331) 
