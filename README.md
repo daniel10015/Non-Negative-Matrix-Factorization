@@ -28,7 +28,7 @@ MAT423 project
 - Time taken to generate: 21 minutes, 37 seconds
 - Synthetic data, n=20, m=500, T=100,000 
 - Used probability distributions 
-- started at *83.9GB*, ended at *68.2GB*: $\\aprox$ 15GB of data
+- started at *83.9GB*, ended at *68.2GB*: $\\approx$ 15GB of data
 - entries: 1,000,000,000 (20 x 500 x 100000) 
   - 1,000,000,000 single-precision floats $\\approx$ 1GB
 
