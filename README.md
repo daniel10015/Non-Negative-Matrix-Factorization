@@ -1,6 +1,7 @@
 # Non-Negative Matrix Factorization
 
-## Time taken for Dataset 1 scraping statistics (*small-medium*)
+## Dataset 1 statistics (*small-medium*)
+- Stock market end of day (eod) prices
 - Dataset1 *(small)*
   - 5 minutes
   - entries: 9,405 (627 x 3 x 5)
@@ -13,7 +14,7 @@
     - 741,000 single-precision floats $\\approx$ 3mB
 
 ## Dataset 2 statistics (*very large*)
-- Video: $\\approx$30fps, 1280 x 780
+- Video: $\\approx$ 30fps, 1280 x 780
 - $\\aprox$10 second video
 - 331 frames
 - entries: 330,470,400 (1280 x 780 x 331) 
