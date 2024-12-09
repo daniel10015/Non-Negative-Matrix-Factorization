@@ -1,4 +1,5 @@
 # Nonnegative Matrix Factorization
+MAT423 project
 
 ## Dataset 1 statistics (*small-medium*)
 - 3 datasets
@@ -21,3 +22,9 @@
 - 331 frames
 - entries: 330,470,400 (1280 x 780 x 331) 
   - 330,470,400 single-precision floats $\\approx$ 330MB
+
+## Dataset 3 statistics
+- TODO
+
+## Results
+- TODO
