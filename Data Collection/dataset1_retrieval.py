@@ -155,6 +155,22 @@ if __name__ == "__main__":
         market: scrape_market_tickers(config["url"], config["ticker_column_index"])
         for market, config in market_sources.items()
     }
+
+    store_tickers = True
+    if store_tickers:
+        # Transform the dictionary into a DataFrame
+        df = pd.DataFrame.from_dict(tickers_by_market, orient="index").transpose()
+
+        # Rename columns for better readability
+        df.columns.name = "Market"
+        df.index.name = "Row"
+
+        # Save to CSV (optional)
+        df.to_csv("Data/tickers.csv", index=True)
+
+        # Print DataFrame to console then quit
+        print(df)
+        exit(0)
     
     
     # Process each market
