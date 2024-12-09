@@ -15,7 +15,7 @@ MAT423 project
   - entries: 741,040 (118 x 10 x 628)
     - 741,000 single-precision floats $\\approx$ 3MB
 
-## Dataset 2 statistics (*very large*)
+## Dataset 2 statistics (*large*)
 - 1 dataset
 - Video: $\\approx$ 30fps, 1280 x 780, encoded as greyscale
 - $\\approx$ 10 second video
@@ -23,8 +23,14 @@ MAT423 project
 - entries: 330,470,400 (1280 x 780 x 331) 
   - 330,470,400 single-precision floats $\\approx$ 330MB
 
-## Dataset 3 statistics
-- TODO
+## Dataset 3 statistics (*very large*)
+- 1 dataset (due to large size you can download it [here](https://drive.google.com/drive/folders/1HnIdDjG_1YwkvRKqG99cYpXZIT9hLqr3?usp=drive_link))
+- Time taken to generate: 21 minutes, 37 seconds
+- Synthetic data, n=20, m=500, T=100,000 
+- Used probability distributions 
+- started at *83.9GB*, ended at *68.2GB*: $\\aprox$ 15GB of data
+- entries: 1,000,000,000 (20 x 500 x 100000) 
+  - 1,000,000,000 single-precision floats $\\approx$ 1GB
 
 ## Results
 - Dataset 1 on `Data/Dataset1/2024-12-02.csv`
