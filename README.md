@@ -11,3 +11,8 @@
   - 78 minutes, 51 seconds
   - entries 741,040 (118 x 10 x 628)
     - 741,000 single-precision floats $\\approx$ 3mB
+
+## Dataset 2 statistics
+- Video: $\\approx$30fps, 1280 x 780
+- $\\aprox$10 second video
+- 331 frames
