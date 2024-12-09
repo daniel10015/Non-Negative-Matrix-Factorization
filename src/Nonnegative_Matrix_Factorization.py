@@ -26,6 +26,7 @@ if __name__ == "__main__":
 
   # ---------- ---------- ----------
 
+  print(f"doing a low-rank-r with r={RANK} update...")
   # Apply NMF with MU solver
   print("FAST HALS\n-----")
   W, H, iters = non_negative_factorization(data, n_components=RANK, init='random', random_state=42, solver='cd', max_iter=MAX_ITERATIONS)
@@ -33,6 +34,8 @@ if __name__ == "__main__":
   # Frobenius Norm Error
   frobenius_error = np.linalg.norm(data - np.dot(W, H), 'fro')
   print("Frobenius Norm Error:", frobenius_error)
+
+  print(f"W-shape: {W.shape}, H-shape: {H.shape}, Data-shape: {data.shape}")
 
   print(f"iterations: {iters}")
   #print(f"\n\nW: {W}\n----------\nH: {H}\n----------\n")
@@ -46,6 +49,8 @@ if __name__ == "__main__":
   # Frobenius Norm Error
   frobenius_error = np.linalg.norm(data - np.dot(W, H), 'fro')
   print("Frobenius Norm Error:", frobenius_error)
+
+  print(f"W-shape: {W.shape}, H-shape: {H.shape}, Data-shape: {data.shape}")
 
   print(f"iterations: {iters}")
   #print(f"\n\nW: {W}\n----------\nH: {H}\n----------\n")
