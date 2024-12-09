@@ -56,3 +56,15 @@ multiplicative update
 Frobenius Norm Error: 68.0684712196409
 iterations: 220
 ```
+
+- Dataset 3 on `Data/Dataset3/time_0.csv`
+```
+FAST HALS
+-----
+Frobenius Norm Error: 67.72928998644046
+iterations: 3127
+multiplicative update
+-----
+Frobenius Norm Error: 67.88559083199539
+iterations: 240
+```

@@ -12,10 +12,14 @@ if __name__ == "__main__":
   data = 0
   Dataset1_file = "Data/Dataset1/2024-12-02.csv"
   Dataset2_file = "Data/Dataset2/friend_jazz_drumming_frame0.csv"
+  Dataset3_file = "Data/Dataset3/time_0.csv"
   if using_real_data:
-    file_path = Dataset2_file  # Replace with the file to compute on
+    file_path = Dataset3_file  # Replace with the file to compute on
     df = pd.read_csv(file_path)
-    data = df.iloc[:, 1:].values  # Remove the first column (index column) and convert to numpy array
+    if file_path[7] == '3':
+      data = df.values # convert to numpy array
+    else:
+      data = df.iloc[:, 1:].values  # Remove the first column (index column) and convert to numpy array
   else:
     # Example data
     data = np.random.rand(500, 120)
