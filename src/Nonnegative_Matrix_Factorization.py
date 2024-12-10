@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
   # Apply NMF with CD solver
   print("multiplicative update\n-----")
-  W, H, iters = non_negative_factorization(data, n_components=RANK, init='random', random_state=42, solver='mu', max_iter=MAX_ITERATIONS)  
+  W, H, iters = non_negative_factorization(data, n_components=RANK, init='random', random_state=42, solver='mu', beta_loss='frobenius', max_iter=MAX_ITERATIONS)  
 
   # Frobenius Norm Error
   frobenius_error = np.linalg.norm(data - np.dot(W, H), 'fro')
